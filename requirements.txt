@@ -1,0 +1,6 @@
+GPUtil==1.4.0
+psutil==5.8.0
+py_cpuinfo==8.0.0
+pandas==1.4.2
+ssd_checker==1.0.3
+getmac==0.8.3
