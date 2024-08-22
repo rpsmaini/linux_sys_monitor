@@ -7,6 +7,7 @@ import psutil
 import platform
 import shutil
 import pandas as pd
+import getpass
 from threading import Timer
 from datetime import *
 from ssd_checker import is_ssd
@@ -39,7 +40,7 @@ def sys():
         logger.info("fetching overall system metrics")
         overall_sys_info = {
             "serial_no.": serial,
-            "user name": str(os.getlogin()),
+            "user name": str(getpass.getuser()),
             "system_name": str(uname.system),
             "node Name": str(uname.node),
             "system release": str(platform.release()),

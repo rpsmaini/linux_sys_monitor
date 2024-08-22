@@ -9,6 +9,7 @@ from datetime import datetime
 from getmac import get_mac_address as gma
 import logging
 import gzip
+import getpass
 
 #this function generate timestamp
 def get_timestamp():
@@ -30,8 +31,8 @@ def initializer():
     # directory creation
     mac = str(gma())
     serial = mac.replace(":","")
-    usr = str(os.getlogin()+"_"+serial)#naming for user directory 
-    directory = "dnw_monitoring"#parent directory
+    usr = str(getpass.getuser()+"_"+serial)#naming for user directory 
+    directory = "sys_insights"#parent directory
 
     # Parent Directory path
     parent_dir = "/home"#location where parent directory will be created
