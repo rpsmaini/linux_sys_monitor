@@ -9,11 +9,11 @@ A modular suite of Python scripts for Linux system monitoring—captures CPU, me
 
 ### Features
 
-* **Comprehensive metrics collection**: Includes CPU, RAM, disk usage, GPU status, networking, process tasks, system snapshot, and more.([GitHub][1])
+* **Comprehensive metrics collection**: Includes CPU, RAM, disk usage, GPU status, networking, process tasks, system snapshot, and more.
 * **CSV-based output**: Easily parseable logs stored in a directory structure for flexibility and archival.
-* **Extensible architecture**: Add or adjust scripts (e.g., `cpu_usage.py`, `ram_usage.py`, `disk_usage.py`, `gpu_usage.py`, `network.py`, `process_task.py`, `overall.py`) to fit specific monitoring needs.([GitHub][1])
-* **Shell script wrapper**: `script.sh` simplifies launching multiple monitors sequentially.([GitHub][1])
-* **Dependency-managed**: `requirements.txt` allows for smooth environment setup and reproducibility.([GitHub][1])
+* **Extensible architecture**: Add or adjust scripts (e.g., `cpu_usage.py`, `ram_usage.py`, `disk_usage.py`, `gpu_usage.py`, `network.py`, `process_task.py`, `overall.py`) to fit specific monitoring needs.
+* **Shell script wrapper**: `script.sh` simplifies launching multiple monitors sequentially.
+* **Dependency-managed**: `requirements.txt` allows for smooth environment setup and reproducibility.
 
 ---
 
